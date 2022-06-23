@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="'ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>大江町同窓会2022/質問と回答</title>
+
+        <link href="css/bootstrap.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="css/custom.css">
+    </head>
+    <body>
+        <!--ナビゲーションバー-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light py-4">
+
+            <div class="container">
+            <!--ブランド-->
+            <a class="navbar-brand"  href="#">大江中2015卒同窓会</a>
+            <!--ブランド終了-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav"
+            aria-expanded="false" aria-label="ナビゲーション切り替え">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">詳細</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="covid.html">コロナウイルス対策について</a>
+                </li>
+                <li class ="nav-item">
+                    <a class="nav-link active" href="QA.html">質問と回答</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+        </nav>
+        <!--ナビゲーションバー終了-->
+
+        <!--QA-->      
+        <div class="py-4">
+            <h4 class="text-center">質問と回答</h4>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <div class="accordion" id="accordion">
+
+                            <!--アコーディオン1-->
+                            <div class="accordion-item bg-info">
+                                <!--アコーディオンヘッダー-->
+                                <div class="accordion-header" id="heading01">
+                                    <h5 class="mb-0">
+                                        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse01" aria-expanding="true" aria-controls="collapse01">
+                                            質問はここに書きます。
+                                        </button>
+                                    </h5>
+                                </div>
+                                <!--コンテンツ-->
+                                <div id="collapse01" class="accordion-collapse collapse show" aria-labelledby="heading01" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        回答はここに書きます。
+                                    </div>
+                                </div>
+
+                            </div>
+                            
+                            <!--アコーディオン2-->
+                            <div class="accordion-item bg-info">
+                                <!--アコーディオンヘッダー aria-expandingをfalseに-->
+                                <div class="accordion-header" id="heading02">
+                                    <h5 class="mb-0">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse02" aria-expanding="false" aria-controls="collapse02">
+                                            木曜日より金曜日が先に来るのはどーこだ?(2個目以降の回答は最初隠れてます。)
+                                        </button>
+                                    </h5>
+                                </div>
+                                <!--コンテンツ classのshowを消す-->
+                                <div id="collapse02" class="accordion-collapse collapse" aria-labelledby="heading02" data-bs-parent="#accordion">
+                                    <div class="accordion-body">
+                                        辞書の中
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--アコーディオン終了-->
+                    <div class="col-md-4">
+                        お問い合わせフォームを作る。(時間があったら自作、なかったらGoogleForm)
+                    </div>
+                </div>
+        </div>
+
+                <!--フッター-->
+                <footer class="py-4 bg-dark">
+                    <div class="container text-center">
+                       
+                        <ul class="nav  justify-content-center mb-3">
+                            <li class="nav-item">
+                                <a class="nav-link" href="index.html">詳細</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="covid.html">コロナウイルス対策について</a>
+                            </li>
+                            <li class ="nav-item">
+                                <a class="nav-link" href="QA.html">質問と回答</a>
+                            </li>
+                        </ul>
+                        
+                        <p>
+                            <small class="text-white">Copyright &copy;2022 大江町成人式実行委員会&Kohei Yusuke,All Rights Reserve.</small>
+                        </p>
+                    </div>
+        
+                </footer>
+        
+                <script src="js/bootstrap.min.js"></script>
+            </body>
+        </html>
